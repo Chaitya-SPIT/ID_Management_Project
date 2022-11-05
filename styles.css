@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .form {
-  margin: 25px 50px;
+  margin: 50px;
 }
 
 .new-user {
@@ -85,12 +85,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .copywrite {
   color: #379237;
-  font-size: 1rem;
+  font-size: 0.8rem;
   text-align: center;
 }
 
 /* mobile view */
-
 @media (max-width: 1000px) {
   body {
     text-align: center;
