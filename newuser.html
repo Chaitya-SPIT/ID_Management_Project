@@ -24,6 +24,7 @@
 
 <body>
 
+
     <nav class="navbar navbar-expand-lg" style="background-color: #FCE700;">
         <a class="navbar-brand col-7" href="index.html">
             <img class="logo" src="https://cdn-icons-png.flaticon.com/128/2634/2634109.png" alt="ID">ID Management
@@ -57,80 +58,82 @@
 
     </nav>
 
-    <div class="form-container">
+    <div class="container-fluid">
+        <div class="form-container">
 
-        <div class="header">
-            <h1>Sign Up</h1>
+            <div class="header">
+                <h1>Sign Up</h1>
+            </div>
+
+            <form>
+
+                <div class="name row">
+                    <div class="col-lg-4 col-md-4">
+                        <label for="fname">First name:</label>
+                        <input type="text" id="fname" name="fname">
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <label for="midname">Middle name:</label>
+                        <input type="text" id="midname" name="midname">
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <label for="lname">Last name:</label>
+                        <input type="text" id="lname" name="lname">
+                    </div>
+                    <br>
+                </div>
+
+                <div class="Gender">
+                    <label for="gender">Select you gender</label>
+                    <select name="gender">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">other</option>
+                    </select>
+                    <br>
+                </div>
+
+                <div class="address">
+                    <label>Address:</label>
+                    <!-- <div class="street-container"> -->
+                    <input type="text" id="street" name="street" placeholder="Street">
+                    <!-- </div> -->
+                    <br>
+                    <div class="address-2">
+                        <input type="text" id="city" name="city" placeholder="City">
+                        <input type="text" id="state" name="state" placeholder="State">
+                    </div>
+
+                    <div class="address-3">
+                        <input type="text" id="pincode" name="pincode" placeholder="Pincode">
+                        <input type="text" id="country" name="country" placeholder="Country">
+                    </div>
+                    <br>
+                </div>
+
+                <div class="email-container">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control input-box" id="exampleInputEmail1"
+                        placeholder="eg. abcd1234@gmail.com">
+                    <br>
+                </div>
+
+                <div class="password-container">
+                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                    <input type="password" class="form-control input-box" id="exampleInputPassword1"
+                        placeholder="* * * * * * * *">
+                    <br>
+                </div>
+
+                <div class="dob-container">
+                    <label for="dob">Date of Birth:</label>
+                    <input type="date" id="dob" name="dob">
+                </div>
+
+                <button type="submit" class="btn btn-primary" style="margin-bottom: 20px;">Submit</button>
+
+            </form>
         </div>
-
-        <form>
-
-            <div class="name row">
-                <div class="col-lg-4 col-md-4">
-                    <label for="fname">First name:</label>
-                    <input type="text" id="fname" name="fname">
-                </div>
-                <div class="col-lg-4 col-md-4">
-                    <label for="midname">Middle name:</label>
-                    <input type="text" id="midname" name="midname">
-                </div>
-                <div class="col-lg-4 col-md-4">
-                    <label for="lname">Last name:</label>
-                    <input type="text" id="lname" name="lname">
-                </div>
-                <br>
-            </div>
-
-            <div class="Gender">
-                <label for="gender">Select you gender</label>
-                <select name="gender">
-                    <option value="male">Male</option>
-                    <option value="female">Female</option>
-                    <option value="other">other</option>
-                </select>
-                <br>
-            </div>
-
-            <div class="address">
-                <label>Address:</label>
-                <!-- <div class="street-container"> -->
-                <input type="text" id="street" name="street" placeholder="Street">
-                <!-- </div> -->
-                <br>
-                <div class="address-2">
-                    <input type="text" id="city" name="city" placeholder="City">
-                    <input type="text" id="state" name="state" placeholder="State">
-                </div>
-
-                <div class="address-3">
-                    <input type="text" id="pincode" name="pincode" placeholder="Pincode">
-                    <input type="text" id="country" name="country" placeholder="Country">
-                </div>
-                <br>
-            </div>
-
-            <div class="email-container">
-                <label for="exampleInputEmail1" class="form-label">Email address</label>
-                <input type="email" class="form-control input-box" id="exampleInputEmail1"
-                    placeholder="eg. abcd1234@gmail.com">
-                <br>
-            </div>
-
-            <div class="password-container">
-                <label for="exampleInputPassword1" class="form-label">Password</label>
-                <input type="password" class="form-control input-box" id="exampleInputPassword1"
-                    placeholder="* * * * * * * *">
-                <br>
-            </div>
-
-            <div class="dob-container">
-                <label for="dob">Date of Birth:</label>
-                <input type="date" id="dob" name="dob">
-            </div>
-
-            <button type="submit" class="btn btn-primary" style="margin-bottom: 20px;">Submit</button>
-            
-        </form>
     </div>
 </body>
 
