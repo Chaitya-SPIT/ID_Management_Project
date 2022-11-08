@@ -1,0 +1,44 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #FFF5E4;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.container {
+  border-radius: 15px;
+  width: 1200px;
+  text-align: center;
+  padding: 34px 0;
+  margin: 23px 0;
+  background-color: black;
+  color: white;
+}
+
+.contact-img {
+  position: absolute;
+  right: 45px;
+  height: 175px;
+  top: 23px;
+}
+
+.collaborator {
+  text-align: center;
+  margin: 40px;
+}
+
+.person-img {
+  height: 180px;
+  margin: 60px;
+}
+
+.news {
+  background-color: black;
+  color: white;
+  padding: 80px;
+  border-radius: 20px;
+}
