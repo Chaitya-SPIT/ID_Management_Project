@@ -107,6 +107,12 @@ h1, h2, h3, h4, h5, h6 {
     margin: 10px;
   }
 
+  .id-img {
+    position: relative;
+    height: 80px;
+    margin-bottom: 120px;
+  }
+
   .form-label {
     letter-spacing: normal;
   }
