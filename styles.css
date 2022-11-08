@@ -78,6 +78,13 @@ h1, h2, h3, h4, h5, h6 {
   color: #5DA7DB;
 }
 
+.id-img {
+  position: absolute;
+  top: 120px;
+  height: 200px;
+  right: 100px;
+}
+
 .developer {
   float: left;
   margin: 0 20px;
