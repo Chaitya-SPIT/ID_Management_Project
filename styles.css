@@ -1,6 +1,7 @@
 body {
   font-family: "Montserrat", sans-serif;
   background-color: #EAEAEA;
+  background-image: url("bg-img.jpg");
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -11,12 +12,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* navbar */
 .logo {
-  height: 45px;
-  margin: 0 20px;
-}
-
-.navbar {
-  margin-bottom: 25px;
+  height: 48px;
 }
 
 .navbar-brand {
@@ -31,40 +27,58 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-item {
-  text-align: center;
-  padding-right: 10px;
-}
-
-.form-control {
-  min-width: 50px;
-}
-
-.d-flex {
-  margin-right: 20px;
+  padding-right: 15px;
 }
 
 /* Login Section */
+.head {
+  background-color: #BAD1C2;
+  margin: 50px 50px 0;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border: #000 solid;
+  border-bottom: none;
+}
+
+.heading {
+  padding: 5px 0;
+  margin-bottom: 0;
+}
+
+.middle {
+  margin: 0 50px;
+  border: #000 solid;
+  border-bottom: none;
+  border-top: none;
+  background-color: #fff;
+}
+
 .login-img {
-  position: absolute;
   height: 180px;
   margin: 50px;
+  float: left;
 }
 
 .fill-form {
   margin-left: 300px;
   margin-right: 350px;
+  padding: 25px 0;
 }
 
-.card-header {
-  background-color: #BAD1C2;
+.form-label {
+  font-family: 'Montserrat', sans-serif;
 }
 
-.card-footer {
+.footer {
   background-color: #FFF8EA;
-}
-
-.form {
-  margin: 50px;
+  margin: 0 50px 50px 50px;
+  border: #000 solid;
+  border-top: none;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  padding-top: 10px;
 }
 
 .new-user {
@@ -80,20 +94,33 @@ h1, h2, h3, h4, h5, h6 {
 
 .id-img {
   position: absolute;
-  top: 120px;
+  top: 220px;
+  left: 1025px;
   height: 200px;
   right: 100px;
 }
 
-.developer {
-  float: left;
-  margin: 0 20px;
+.gear-img {
+  margin: 0 5px;
 }
 
+.developer {
+  float: left;
+  padding-right: 30px;
+}
+
+/* Copywrite Section */
 .copywrite {
-  color: #379237;
-  font-size: 0.8rem;
+  color: #FCE700;
+  font-size: 1rem;
+  background-color: #000;
+  width: 20%;
+  margin: auto;
   text-align: center;
+  border-radius: 20px;
+  border-color: #fff;
+  border-style: solid;
+  padding: 2px 0;
 }
 
 /* mobile view */
@@ -103,26 +130,33 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .login-img {
-    position: relative;
     margin: 10px;
-  }
-
-  .id-img {
-    position: relative;
-    height: 80px;
-    margin-bottom: 120px;
-  }
-
-  .form-label {
-    letter-spacing: normal;
+    margin-top: 20px;
+    float: none;
   }
 
   .fill-form {
-    margin: 0;
+    margin: 20px;
+    margin-bottom: 0;
+  }
+
+  .btn {
+    display: block;
+    margin: auto;
+  }
+
+  .new-user {
+    display: block;
   }
 
   .developer {
     text-align: center;
     float: none;
+  }
+}
+
+@media (max-width: 1300px) {
+  .id-img {
+    visibility: hidden;
   }
 }
